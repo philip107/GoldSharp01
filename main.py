@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-	return jsonify({"msg":"hello deploy from flask glitch"})
+	return jsonify({"msg":"hello deploy from flask glitch - Hong Kong Philip"})
 
 
 if __name__ == "__main__":
